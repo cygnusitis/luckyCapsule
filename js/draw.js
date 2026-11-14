@@ -1,7 +1,7 @@
 import { CAPSULES } from './capsules.js';
 
 // Probabilities in percent; must sum to 100.
-export const WEIGHTS = [['common', 60], ['uncommon', 25], ['rare', 12], ['legendary', 3]];
+export const WEIGHTS = [['common', 45], ['uncommon', 28], ['rare', 18], ['legendary', 9]];
 
 /** Stage 1: weighted rarity tier. */
 export function pickRarity(rand = Math.random) {
